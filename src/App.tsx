@@ -58,7 +58,7 @@ interface KehadiranData {
 }
 
 const endpoint =
-  "https://script.google.com/macros/s/AKfycbwUQYL22u57X917ndLv6Dly2WTRZvyS_jbKJEqoeY48XG6uOeJHqrCuFul_uAGEAQcLXQ/exec";
+  "https://script.google.com/macros/s/AKfycbxglsE4PsQOIWG8dvb2XlKksSWKhpRMidIdFIdOfg-kdPxz-Pzvb1O2fY6hpkw9QOpZ/exec";
 
 const throttle = (func: Function, delay: number) => {
   let timeoutId: ReturnType<typeof setTimeout> | null = null;
